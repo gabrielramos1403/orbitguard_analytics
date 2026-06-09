@@ -21,6 +21,17 @@
 
 ---
 
+
+
+## 👨‍💻 Autores
+
+| Autor | Participação |
+| ----- | ------------ |
+| Gabriel Ramos Moreira | Desenvolvimento do aplicativo, estruturação das telas, lógica de alertas e documentação |
+| Vinicius Mello Siqueira | Apoio no desenvolvimento, testes, validação das funcionalidades e documentação |
+
+
+
 ## 🛰️ Sobre o Projeto
 
 O **OrbitGuard Analytics** é um aplicativo mobile desenvolvido em **React Native + Expo** para o desafio **Global Solution 2026.1** da FIAP, dentro do tema **Space Predictive Analytics**.
@@ -293,20 +304,7 @@ O projeto utiliza:
 | `useReducer` | Organização das mudanças no estado global  |
 | `useContext` | Consumo dos dados globais nas telas        |
 
----
-
-## 💾 Persistência Local
-
-O app utiliza **AsyncStorage** para salvar informações importantes localmente no dispositivo.
-
-São persistidos:
-
-* Configurações dos limiares críticos
-* Histórico de alertas
-
-Isso permite que o usuário mantenha suas configurações e alertas mesmo após fechar e abrir o app novamente.
-
----
+--
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -324,59 +322,6 @@ Isso permite que o usuário mantenha suas configurações e alertas mesmo após 
 
 ---
 
-## 🚀 Como Executar o Projeto
-
-### Pré-requisitos
-
-Antes de começar, instale:
-
-* Node.js
-* Git
-* Expo Go ou Android Studio com emulador
-* VS Code ou outro editor de código
-
----
-
-### Clonar o Repositório
-
-```bash
-git clone https://github.com/gabrielramos1403/orbitguard_analytics.git
-```
-
----
-
-### Acessar a Pasta
-
-```bash
-cd orbitguard_analytics
-```
-
----
-
-### Instalar Dependências
-
-```bash
-npm install
-```
-
----
-
-### Executar o Projeto
-
-```bash
-npx expo start
-```
-
-Depois, escolha uma opção:
-
-| Comando | Ação                          |
-| ------- | ----------------------------- |
-| `a`     | Abrir no emulador Android     |
-| `w`     | Abrir no navegador            |
-| QR Code | Abrir no Expo Go pelo celular |
-
----
-
 ## 📦 Bibliotecas Principais
 
 ```json
@@ -389,45 +334,6 @@ Depois, escolha uma opção:
 }
 ```
 
----
-
-## 🎥 Vídeo de Demonstração
-
-[Clique aqui para assistir ao vídeo de demonstração](https://youtube.com/...)
-
-> Substituir pelo link final do vídeo antes da entrega.
-
----
-
-## 🔗 Links do Projeto
-
-| Tipo        | Link                                                     |
-| ----------- | -------------------------------------------------------- |
-| Repositório | https://github.com/gabrielramos1403/orbitguard_analytics |
-| Vídeo       | https://youtube.com/...                                  |
-
----
-
-## 📌 Critérios da Global Solution Atendidos
-
-| Critério                         | Status                          |
-| -------------------------------- | ------------------------------- |
-| Navegação com Expo Router        | ✅ Atendido                      |
-| Mínimo de 3 dashboards           | ✅ Atendido                      |
-| Dados simulados em tempo real    | ✅ Atendido                      |
-| Context API                      | ✅ Atendido                      |
-| useState, useEffect e useReducer | ✅ Atendido                      |
-| AsyncStorage                     | ✅ Atendido                      |
-| Formulário com validação         | ✅ Atendido                      |
-| Sistema de alertas automáticos   | ✅ Atendido                      |
-| Interface temática espacial      | ✅ Atendido                      |
-| Componentes reutilizáveis        | ✅ Atendido                      |
-| TypeScript                       | ✅ Atendido                      |
-| README com prints                | ✅ Atendido após inserir imagens |
-| Vídeo de demonstração            | 🔄 Pendente inserir link        |
-
----
-
 ## 🎓 Observação Acadêmica
 
 O **OrbitGuard Analytics** foi desenvolvido com foco em uma solução completa, funcional e coerente com os conteúdos da disciplina.
@@ -438,7 +344,7 @@ Essa escolha mantém o app tecnicamente consistente, explicável e adequado para
 
 ---
 
-## 📄 Licença
+## Motivo do projeto
 
 Este projeto foi desenvolvido exclusivamente para fins acadêmicos como parte da **Global Solution 2026.1 — FIAP**.
 
